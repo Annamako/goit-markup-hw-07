@@ -1,0 +1,16 @@
+@media screen and (min-width: 767px) {
+  .container {
+    width: 751px;
+  }
+
+  .team-list {
+    row-gap: 64px;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+}
