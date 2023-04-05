@@ -2,4 +2,8 @@
   .container {
     width: 426px;
   }
+
+  .features-dsc {
+    text-align: center;
+  }
 }
