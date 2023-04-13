@@ -3,11 +3,46 @@
     width: 751px;
   }
 
+  .container-header {
+    width: 100%;
+    margin: 16px;
+  }
+
+  .header-logo {
+    margin-right: 120px;
+  }
+
+  .header-item {
+    padding: 0;
+  }
+
+  .header-list {
+    gap: 12px;
+    flex-direction: column;
+    margin-left: 120px;
+  }
+
+  .header-mail {
+    font-size: 12px;
+  }
+
+  .header-tel {
+    font-size: 12px;
+  }
+
   .hero-title {
     font-weight: 700;
     font-size: 56px;
     padding-bottom: 48px;
     max-width: 496px;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .no-mobile {
+    display: block;
   }
 
   .features-dsc {
@@ -46,8 +81,12 @@
 
   .footer-tablet {
     display: flex;
-    align-items: center;
     gap: 24px;
+    margin-bottom: 72px;
+  }
+
+  .footer-dsc {
+    text-align: start;
   }
 
   .footer-social {
@@ -56,7 +95,7 @@
   }
 
   .footer-social-title {
-    margin-top: 72px;
+    text-align: start;
   }
 
   .footer-form-input {

@@ -3,6 +3,19 @@
     width: 1158px;
   }
 
+  .container-header {
+    width: 1128px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-logo {
+    margin-right: 76px;
+  }
+
   .hero {
     padding: 188px 0;
   }
@@ -86,6 +99,7 @@
 
   .footer-social-title {
     text-align: justify;
+    /* margin-top: 0; */
   }
 
   .footer-subscribe {
