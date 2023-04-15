@@ -155,7 +155,7 @@
         </div>
       </section>
       <section class="team">
-        <div class="container">
+        <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
@@ -244,7 +244,7 @@
             </li>
             <li class="team-item">
               <img
-                srcset="./image/img2.jpg 2x, ./image/img2-2x.jpg 2x"
+                srcset="./image/img2.jpg 1x, ./image/img2-2x.jpg 2x"
                 src="./image/img2.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -330,7 +330,7 @@
         </div>
       </section>
       <section class="customers">
-        <div class="container">
+        <div class="container customers-container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-item">
@@ -426,7 +426,6 @@
             </ul>
           </div>
         </div>
-        <!-- <div class="foooter-subscribe-form"></div> -->
         <form>
           <p class="footer-social-title">Subscribe</p>
           <div class="footer-subscribe">
@@ -491,78 +490,88 @@
             id="policy"
             name="policy"
           />
-          <label for="policy" class="form-label-check">
-            I accept the terms and conditions of the
-            <a class="form-label-check-link" href="/"> Privacy Policy</a>
+          <label for="policy" class="form-label-check"
+            ><span>
+              I accept the terms and conditions of the
+              <a class="form-label-check-link" href="/">
+                Privacy Policy</a
+              ></span
+            >
           </label>
           <button type="submit" class="form-btn">Send</button>
         </form>
       </div>
     </div>
     <div class="mobile-container is-hiden js-menu-container">
-      <div>
+      <div class="mobile-menu-container">
         <button type="button" class="menu-toggle js-close-menu">
           <svg class="mobile-menu-close-svg" width="8px" height="8px">
             <use href="./image/icons.svg#close"></use>
           </svg>
         </button>
-        <ul class="mobile-menu-nav-list list">
-          <li class="mobile-menu-item">
-            <a href="./index.html" class="mobile-menu-link link">Studio</a>
-          </li>
-          <li class="mobile-menu-item">
-            <a href="./portfolio.html" class="mobile-menu-link link"
-              >Portfolio</a
-            >
-          </li>
-          <li class="mobile-menu-item">
-            <a href="" class="mobile-menu-link link">Contacts</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul class="mobile-menu-list list">
-          <li class="mobile-menu-item">
-            <a href="tel:+110001111111" class="mobile-menu-tel link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-          <li class="mobile-menu-item">
-            <a href="mailto:info@devstudio.com" class="mobile-menu-mail link"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
-        <ul class="mobile-menu-social list">
-          <li class="mobile-menu-social-item">
-            <a href="" class="mobile-menu-social-link link">
-              <svg class="mobile-menu-social-icon" width="16px" height="16px">
-                <use href="./image/icons.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-menu-social-item">
-            <a href="" class="mobile-menu-social-link link">
-              <svg class="mobile-menu-social-icon" width="16px" height="16px">
-                <use href="./image/icons.svg#twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-menu-social-item">
-            <a href="" class="mobile-menu-social-link link">
-              <svg class="mobile-menu-social-icon" width="16px" height="16px">
-                <use href="./image/icons.svg#facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-menu-social-item">
-            <a href="" class="mobile-menu-social-link link">
-              <svg class="mobile-menu-social-icon" width="16px" height="16px">
-                <use href="./image/icons.svg#linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        <div>
+          <ul class="mobile-menu-nav-list list">
+            <li class="mobile-menu-item">
+              <a
+                href="./index.html"
+                class="mobile-menu-link current-mobile link"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-menu-item">
+              <a href="./portfolio.html" class="mobile-menu-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu-item">
+              <a href="" class="mobile-menu-link link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="mobile-menu-list list">
+            <li class="mobile-menu-item">
+              <a href="tel:+110001111111" class="mobile-menu-tel link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-menu-item">
+              <a href="mailto:info@devstudio.com" class="mobile-menu-mail link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-menu-social list">
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link link">
+                <svg class="mobile-menu-social-icon" width="16px" height="16px">
+                  <use href="./image/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link link">
+                <svg class="mobile-menu-social-icon" width="16px" height="16px">
+                  <use href="./image/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link link">
+                <svg class="mobile-menu-social-icon" width="16px" height="16px">
+                  <use href="./image/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link link">
+                <svg class="mobile-menu-social-icon" width="16px" height="16px">
+                  <use href="./image/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
